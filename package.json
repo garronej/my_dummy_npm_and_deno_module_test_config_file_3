@@ -1,9 +1,9 @@
 {
-    "name": "my_dummy_npm_and_deno_module_test_config_file_2",
+    "name": "my_dummy_npm_and_deno_module_test_config_file_3",
     "version": "1.0.0",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/garronej/my_dummy_npm_and_deno_module_test_config_file_2.git"
+        "url": "git+https://github.com/garronej/my_dummy_npm_and_deno_module_test_config_file_3.git"
     },
     "main": "dist/lib/index.js",
     "dependencies": {
