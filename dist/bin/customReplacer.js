@@ -61,7 +61,7 @@ denoify_1.makeThisModuleAnExecutableReplacer(function (_a) {
                         match = (_b = parsedImportExportStatement.target) === null || _b === void 0 ? void 0 : _b.match(/^\*\s+as\s+(.*)$/);
                         //We expect:import * as xxxx from "..."
                         tsafe_1.assert(!!match);
-                        return [2 /*return*/, "import { leftPad as " + match[1] + " } from \"" + path.relative(destDirPath, path.join(__dirname, "..", "..", "deno_dist", "tools", "leftPad.ts"))
+                        return [2 /*return*/, "import { leftPad as " + match[1] + " } from \"" + path.relative(destDirPath, path.join(__dirname, "..", "..", "custom_deno_dist_dir_name", "tools", "leftPad.ts"))
                                 .split(path.sep).join(path.posix.sep) //For windows compat (we dont want backslashes)
                              + "\""];
                     }

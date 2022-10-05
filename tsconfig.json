@@ -21,7 +21,7 @@
     "exclude": [ // !important
         "node_modules/",
         "dist/",
-        "deno_dist/",
+        "custom_deno_dist_dir_name/",
         "src/**/*.deno.ts",
         "src/**/*.deno.tsx"
     ]
